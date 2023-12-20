@@ -3,20 +3,25 @@ import Slide from "../components/Slide.astro";
 ---
 
 <Slide>
+  <h5>Les 4 règles du jeu de la vie</h5>
   <div style="width: 100%;">
     <div style="width: 50%; float: left;" class="r-stack">
-      <p class="fragment fade-in-then-out" data-fragment-index="1"> coucou </p>
-      <p class="fragment fade-in-then-out" data-fragment-index="2"> coucou2 </p>
-      <p class="fragment fade-in-then-out" data-fragment-index="3"> coucou3 </p>
-      <p class="fragment fade-in" data-fragment-index="4"> coucou4 </p>
+      <img src="../../public/rules/1-1.png" class="fragment fade-in-then-out" data-fragment-index="3">
+      <img src="../../public/rules/1-1.png" class="fragment fade-in-then-out" data-fragment-index="4">
+      <img src="../../public/rules/1-2.png" class="fragment fade-in-then-out" data-fragment-index="5">
+      <img src="../../public/rules/2-1.png" class="fragment fade-in-then-out" data-fragment-index="6">
+      <img src="../../public/rules/2-1.png" class="fragment fade-in-then-out" data-fragment-index="7">
+      <img src="../../public/rules/3-1.png" class="fragment fade-in-then-out" data-fragment-index="8">
+      <img src="../../public/rules/3-2.png" class="fragment fade-in-then-out" data-fragment-index="9">
+      <img src="../../public/rules/4-1.png" class="fragment fade-in-then-out" data-fragment-index="10">
+      <img src="../../public/rules/4-2.png" class="fragment fade-in-then-out" data-fragment-index="11">
     </div>
-    <div style="width: 50%; float: right;">
-      <h5>Les 4 règles du jeu de la vie</h5>
-      <ol>
-        <li class="fragment" data-fragment-index="1">Solitude</li>
-        <li class="fragment" data-fragment-index="2">Survie</li>
-        <li class="fragment" data-fragment-index="3">Surpopulation</li>
-        <li class="fragment" data-fragment-index="4">Résurrection</li>
+    <div style="width: 50%; float: right">
+      <ol style="font-size: 0.6em">
+        <li style="margin: 5% 0" class="fragment" data-fragment-index="4">Une cellule qui a moins de deux voisins meurt</li>
+        <li style="margin: 5% 0" class="fragment" data-fragment-index="6">Une cellule avec deux ou trois voisins survit</li>
+        <li style="margin: 5% 0" class="fragment" data-fragment-index="8">Une cellule avec plus de trois voisins meurt</li>
+        <li style="margin: 5% 0" class="fragment" data-fragment-index="10">Une cellule vide avec exactement trois voisins devient vivante</li>
       </ol>
     </div>
   </div>

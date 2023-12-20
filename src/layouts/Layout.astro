@@ -19,15 +19,17 @@ const { title } = Astro.props;
 		<script>
 			import Reveal from "reveal.js";
 			import RevealHighlight from "reveal.js/plugin/highlight/highlight";
+			import RevealNotes from "reveal.js/plugin/notes/notes";
 
 			Reveal.initialize({
 				transition: "none",
 				history: true,
-				// progress: false,
-				// controls: false,
+				progress: false,
+				controls: true,
+				controlsBackArrows: 'hidden',
 				autoAnimateDuration: 0.5,
 				autoAnimateEasing: "cubic-bezier(0.4, 0, 0.2, 1)",
-				// plugins: [RevealHighlight], // use this if you want to show some code
+				plugins: [ RevealNotes ], // use this if you want to show some code
 			});
 		</script>
 	</body>
