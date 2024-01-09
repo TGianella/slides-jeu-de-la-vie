@@ -21,6 +21,7 @@ import PerfWASM from "../slides/perfWASM.astro"
 import SideBySide from "../slides/sideBySide.astro"
 import Performance from "../slides/performance.astro"
 import Final from "../slides/final.astro"
+import GameOfLifeSectionTitle from "../slides/GameOfLifeSectionTitle.astro";
 ---
 
 <Layout title="My Awesome Talk Title">
@@ -30,11 +31,14 @@ import Final from "../slides/final.astro"
       <Sad />
       <WhyAstro />
       <GameOfLifeFullscreen />
-      <IntroGameOfLife />
-      <Rules />
-      <Emergence />
-      <Figures />
-      <Turing />
+			<section>
+				<GameOfLifeSectionTitle />
+				<IntroGameOfLife />
+				<Rules />
+				<Emergence />
+				<Figures />
+				<Turing />
+			</section>
       <Javascript />
       <Result />
       <Wrapping />
