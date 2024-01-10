@@ -2,22 +2,30 @@
 import Slide from "../components/Slide.astro";
 ---
 
+<style>
+	.item {
+		margin: 20px 0
+	}
+</style>
+
+
+
 <Slide>
   <div style="width: 100%;">
     <div style="width: 50%; float: left;" class="fragment">
       <h5>Des avantages...</h5>
       <ul>
-        <li>Performant</li>
-        <li>Portable</li>
-        <li>Léger</li>
+        <li class="item fragment">Performant</li>
+        <li class="item fragment">Portable</li>
+        <li class="item fragment">Léger</li>
       </ul>
     </div>
     <div style="width: 50%; float: right" class="fragment">
       <h5>et des inconvénients</h5>
       <ul>
-        <li>Plus difficile</li>
-        <li>Polyglotte</li>
-        <li>Implémentation d'une interface</li>
+        <li class="item fragment">Plus difficile</li>
+        <li class="item fragment">Polyglotte</li>
+        <li class="item fragment">Nécessite l'implémentation d'une interface</li>
       </ul>
     </div>
   </div>
