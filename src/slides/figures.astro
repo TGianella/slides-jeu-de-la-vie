@@ -5,11 +5,11 @@ import Slide from "../components/Slide.astro";
 <Slide>
   <div style="width: 100%;">
     <div style="width: 50%; float: left;" class="r-stack">
-      <img src="static.png" class="fragment fade-in-then-out" data-fragment-index="1">
-      <img src="periodic.gif" class="fragment fade-in-then-out" data-fragment-index="2">
-      <img src="glider.png" class="fragment fade-in-then-out" data-fragment-index="3">
-      <img src="glider.gif" class="fragment fade-in-then-out" data-fragment-index="4">
-      <img src="Gospers_glider_gun.gif" style="transform: scale(2); image-rendering: pixelated;"class="fragment fade-in-then-out" data-fragment-index="5">
+      <img src=`${import.meta.env.BASE_URL}/static.png` class="fragment fade-in-then-out" data-fragment-index="1">
+      <img src=`${import.meta.env.BASE_URL}/periodic.gif` class="fragment fade-in-then-out" data-fragment-index="2">
+      <img src=`${import.meta.env.BASE_URL}/glider.png` class="fragment fade-in-then-out" data-fragment-index="3">
+      <img src=`${import.meta.env.BASE_URL}/glider.gif` class="fragment fade-in-then-out" data-fragment-index="4">
+      <img src=`${import.meta.env.BASE_URL}/Gospers_glider_gun.gif` style="transform: scale(2); image-rendering: pixelated;"class="fragment fade-in-then-out" data-fragment-index="5">
     </div>
     <div style="width: 50%; float: right">
       <h5>Figures remarquables</h5>

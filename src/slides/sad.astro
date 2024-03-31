@@ -12,7 +12,7 @@ import Slide from "../components/Slide.astro";
   </aside>
   <div class="r-stack">
     <img
-      src="/sad/man.jpg"
+      src=`${import.meta.env.BASE_URL}/sad/man.jpg`
       class="fragment"
       height="400px"
       style="
@@ -23,7 +23,7 @@ import Slide from "../components/Slide.astro";
       "
     >
     <img
-      src="/sad/woman.jpg"
+      src=`${import.meta.env.BASE_URL}/sad/woman.jpg`
       class="fragment"
       height="450px"
       style="
@@ -35,7 +35,7 @@ import Slide from "../components/Slide.astro";
       "
     >
     <img
-      src="/sad/cat.jpg"
+      src=`${import.meta.env.BASE_URL}/sad/cat.jpg`
       class="fragment"
       height="500px"
       style="

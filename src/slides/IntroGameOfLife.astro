@@ -6,12 +6,12 @@ import Slide from "../components/Slide.astro";
   <h4 style="margin-bottom: 50px;">Le jeu de la vie</h4>
   <div style="width: 100%;">
     <div style="width: 50%; float: left;" class="r-stack">
-      <img src="empty_universe.png" class="fragment fade-in-then-out" data-fragment-index="2"/>
-      <img src="exemple_1.png" class="fragment fade-in-then-out" data-fragment-index="3"/>
-      <img src="exemple_2.png" class="fragment fade-in-then-out" data-fragment-index="4"/>
-      <img src="exemple_3.png" class="fragment fade-in-then-out" data-fragment-index="5"/>
-      <img src="rules/1-1.png" class="fragment fade-in-then-out" data-fragment-index="6"/>
-      <img src="rules/voisins.png" class="fragment fade-in-then-out" data-fragment-index="7"/>
+      <img src=`${import.meta.env.BASE_URL}/empty_universe.png` class="fragment fade-in-then-out" data-fragment-index="2"/>
+      <img src=`${import.meta.env.BASE_URL}/exemple_1.png` class="fragment fade-in-then-out" data-fragment-index="3"/>
+      <img src=`${import.meta.env.BASE_URL}/exemple_2.png` class="fragment fade-in-then-out" data-fragment-index="4"/>
+      <img src=`${import.meta.env.BASE_URL}/exemple_3.png` class="fragment fade-in-then-out" data-fragment-index="5"/>
+      <img src=`${import.meta.env.BASE_URL}/rules/1-1.png` class="fragment fade-in-then-out" data-fragment-index="6"/>
+      <img src=`${import.meta.env.BASE_URL}/rules/voisins.png` class="fragment fade-in-then-out" data-fragment-index="7"/>
     </div>
     <div style="width: 50%; float: right">
       <ul style="font-size: 0.9em">
