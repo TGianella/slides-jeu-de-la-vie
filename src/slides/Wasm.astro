@@ -5,13 +5,22 @@ import Slide from "../components/Slide.astro";
 <Slide>
   <h4>C'est quoi WebAssembly ?</h4>
 	<div class="r-stack" style="position: relative;">
-		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema.png` width="700" />
-		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema2.png` width="700" />
-		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema3.png` width="700" />
-		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema4.png` width="700" />
-		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema5.png` width="700" />
-		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema6.png` width="700" />
-		<label style="font-size: 12px; position: absolute; bottom: -16px; right: 150px;">Credits :  <i>Partha Pratim Ray</i>, "An Overview of WebAssembly for IoT"</label>
+		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema.png` width="700" data-fragment-index="1" />
+		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema2.png` width="700" data-fragment-index="2" />
+		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema3.png` width="700" data-fragment-index="3" />
+		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema5.png` width="700" data-fragment-index="4" />
+		<img class="fragment fade-in-then-out" src=`${import.meta.env.BASE_URL}/wasm-schema6.png` width="700" data-fragment-index="5" />
+		<label class="fragment fade-in"
+					 data-fragment-index="1"
+					 style="
+					 	font-size: 12px;
+					 	position: absolute;
+					 	bottom: -16px;
+					 	right: 150px;
+					 "
+		>
+			Credits :  <i>Partha Pratim Ray</i>, "An Overview of WebAssembly for IoT"
+		</label>
 	</div>
 
 </Slide>
